@@ -1,18 +1,19 @@
 html{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .cabecalho{
     display: flex;
     justify-content: center;
-    height: 7vh;
-    padding: 0 40px;
+    height: 10vh;
     align-items: center;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(1, 6, 15);
 }
 
-.content-cabecalho{
+.container{
+    padding: 0 40px;
     width: 1280px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +29,7 @@ html{
 
 .logo h1 a span{
 
-    color: rgb(31, 214, 31);
+    color: rgb(31, 214, 113);
 }
 
 
@@ -67,15 +68,48 @@ html{
 
 #link-inscrever a{
     border: none;
-    background-color: rgb(31, 214, 31);
-    padding: 12px;
-    border-radius: 8px;
+    font-size: 15px;
+    background-color: rgb(31, 214, 113);
+    padding: 12px 20px;
+    border-radius: 20px;
+    color: black;
 }
 
 #link-inscrever:hover{
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 
 /* Section Home */
 
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 6, 15);
+}
+
+.home .text-content{
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    line-height: 1.8rem;
+    
+}
+
+.text-content h2 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    line-height: 5rem;
+}
+
+.text-content h2 span {
+    white-space: nowrap;
+    color: rgb(31, 214, 113);
+    
+}
+
+.text-content p{
+    font-size: 18px;
+}
