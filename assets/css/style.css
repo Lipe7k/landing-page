@@ -1,0 +1,81 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    padding: 0 40px;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+.content-cabecalho{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 a{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.logo h1 a span{
+
+    color: rgb(31, 214, 31);
+}
+
+
+.cabecalho .menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+
+.cabecalho .menu ul li{
+    position: relative;
+    transition: .2s;
+}
+
+.cabecalho .menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.menu ul li:not(#link-inscrever)::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -6px;
+    background-color: #ffffff;
+    transition: .2s;
+}
+
+.menu ul li:not(#link-inscrever):hover::after {
+    width: 100%;
+}
+
+#link-inscrever a{
+    border: none;
+    background-color: rgb(31, 214, 31);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#link-inscrever:hover{
+    transform: scale(1.03);
+}
+
+
+/* Section Home */
+
