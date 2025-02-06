@@ -1,42 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Felipe Falcirolli</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="cabecalho">
-        <div class="container">
+      <div class="container">
         <div class="logo">
-            <h1><a href="#">Felipe<span>.</span></a></h1>
+          <h1>
+            <a href="#">Felipe<span>.</span></a>
+          </h1>
         </div>
 
         <nav class="menu">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Projects</a></li>
-                <li id="link-inscrever"><a href="">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li id="link-inscrever"><a href="">Contact</a></li>
+          </ul>
         </nav>
-        </div>
+      </div>
     </header>
 
     <section class="home">
-        <div class="container">
-            <div class="text-content">
-                <h2>Hello I'm <span>Felipe Falcirolli</span></h2>
-                <p>I'm a Web developer willing to learn more about programming and various technologies.</p>
-            </div>
-            <div class="image-container">
-                <img src="assets/images/photo.jpg" alt="Imagem">
-            </div>
+      <div class="container">
+        <div class="text-content">
+          <h2>Hello I'm</h2>
+          <h1>Felipe Falcirolli</h1>
+          <p>
+            I'm a Web developer willing to learn more about programming and
+            various technologies.
+          </p>
         </div>
+        <div class="image-container">
+          <img src="assets/images/photo.jpg" alt="Imagem" />
+        </div>
+      </div>
     </section>
-</body>
+
+    <section class="projects">
+      <div class="container">
+
+        <div class="project-box">
+            <div class="content-box">
+                <div class="text-project">
+                    <h3>Digital Clock</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Doloribus error nulla facilis, quasi accusantium alias ut
+                        inventore est nostrum exercitationem provident nemo odio
+                        consequatur debitis. Molestias alias est recusandae reiciendis!
+                    </p>
+                    
+                    <div class="languagues">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                    </div>
+                </div>
+
+
+                <div class="image-project">
+                    <img src="assets/images/digital-clock.png" alt="" />
+                </div>
+                <div class="project-links">
+                    <a href="https://relogio-digital-iota-nine.vercel.app" target="_blank">Deploy</a>
+                    <a href="https://github.com/Lipe7k/relogio-digital" target="_blank">Code</a>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="project-box">
+                <div class="content-box">
+                    <div class="project-coming">
+                        <h3>Coming...</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+  </body>
 </html>
