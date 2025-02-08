@@ -180,7 +180,7 @@ html{
 }
 
 .project-box:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .content-box {
@@ -240,8 +240,8 @@ html{
 }
 
 .project-links a:hover{
-    background-color: rgb(15, 15, 15);
-    transform: scale(1.03);
+    background-color: rgb(10, 10, 10);
+    transform: scale(1.05);
 }
 
 .projects .image-project img{
@@ -259,3 +259,47 @@ html{
     text-align: justify;
 }
 
+/* Footer */
+
+.rodape{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-rodape{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+}
+
+.top-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-rodape h1{
+    margin-bottom: 20px;
+}
+
+.top-rodape p{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: space-between;
+    max-width: 200px;
+}
+
+.bottom-rodape {
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.329);
+}
